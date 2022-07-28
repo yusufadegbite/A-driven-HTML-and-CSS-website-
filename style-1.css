@@ -1,0 +1,513 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 355px;
+    background-attachment: fixed;
+
+    background: #fff;
+    margin: 0;
+    font-family: Verdana,Sans-Serif;
+    height: 100%;
+}
+
+.intro {
+    background-image: url(img1.jpg);
+    height: 100%;
+    padding-top: 70px;
+}
+
+
+
+
+
+nav {
+    background: #320058;
+    height: 80px;
+    width: 360px;
+    margin: 0;
+    position: fixed;
+    box-shadow: 0 0 8px #000;
+
+}
+
+label.logo {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 80px;
+    color: white;
+    padding-left: 26px;
+    float: right;
+    margin-right: 30px;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 16px;
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    width: 120px;
+    height: 100vh;
+    background: #320058;
+    text-align: left;
+    transition: all .5s;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: ue;
+    padding: 7px 16px;
+    border-radius: 3px;
+
+
+
+}
+
+a:hover {
+    background: none;
+    transition: 0.5s;
+    color: #0082e6;
+
+
+
+}
+
+.checkbtn {
+    display: block;
+    float: left;
+    font-size: 30px;
+    line-height: px;
+    color: white;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 23px;
+    border:;
+    border-radius:;
+    font-weight: 500;
+    padding:;
+    padding-top:;
+    padding-bottom:;
+
+}
+#check:checked ~ ul {
+    left: 0;
+    display:;
+}
+#check {
+    display: none;
+}
+
+.yusuf {
+    font-size: 17px;
+    text-align: left;
+    font-weight: 300;
+    padding-left: 19px;
+    font-family: Verdana;
+    line-height: 35px;
+}
+.yusuf strong {
+    color: #320058;
+}
+
+.me {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    margin-left: 63px;
+    box-shadow: 0 0 10px #000;
+    float: center;
+    margin-top: 20px;
+    top: 0;
+    padding: 0;
+    line-height: 60px;
+}
+
+.welcome {
+    padding-left: 24px;
+    line-height: 45px;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Georgia;
+    color: #320058;
+}
+
+.welcome span {
+    padding-left: 1.5px;
+    font-family: Trebuchet MS;
+    font-size: 25px;
+    color: black;
+    font-weight: 400;
+}
+
+.welcome i {
+    color: black;
+    text-align: center;
+    font-size: 12px;
+}
+
+.user {
+    font-size: 150px;
+    align-content: center;
+    float: center;
+    margin-left: 130px;
+}
+
+
+#about {
+    font-size: 27px;
+    font-weight: 400;
+    padding-left: 22px;
+    font-family: Georgia;
+}
+hr {
+    width: 320px;
+    height: 0.15rem;
+    background: black;
+    margin-left: 22px;
+    border: 0;
+}
+.bio {
+    border-radius: 10px;
+    width: 315px;
+    height: 4rem;
+    border: 1px solid black;
+    background: #A28B0D;
+    color: white;
+    margin-left: 22px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Courier New;
+    box-shadow: 0 0 10px #000;
+    padding: 5px;
+}
+.more {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: m;
+    grid-gap: 0;
+    margin: 10px;
+}
+
+div.service {
+    font-family: Courier;
+    line-height: 27px;
+    padding-left: 8px;
+    border: 0px solid #000000;
+    border-radius:;
+    color: white;
+    background-color: #320058;
+    width: 114px;
+    margin-left: px;
+    box-shadow: 0 0 5px #000;
+    transition: auto 200ms ease;
+    opacity: 5;
+    height: 14rem;
+    justify-self: center;
+    margin-right: 0;
+    font-size: 11px;
+
+
+
+
+}
+
+.service-header {
+    font-size: 15px;
+    padding: 15 0;
+    margin: 0;
+    font-family: Comic Sans MS;
+    text-align: center;
+}
+
+.service-p {
+    font-size: 1px;
+    padding-left: 5px;
+}
+
+#resume {
+    width: 120px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Courier New;
+    margin-left: 25px;
+    color: white;
+    background: #320058;
+    height: 2.5rem;
+    font-weight: 300;
+    padding-top:;
+    text-align: center;
+    opacity: 7;
+    border: 0;
+    box-shadow: 0 0 5px #000;
+    transition: all 200ms ease-in;
+    outline: 0;
+
+
+}
+#resume a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#resume a:hover {
+    transform: scale(1.4);
+    outline: none;
+}
+
+#contact {
+      width: 220px;
+    border-radius: 30px;
+    font-size: 28px;
+    font-family: Courier New;
+    margin-left: 76px;
+    color: white;
+    background: #320058;
+    height: 3.5rem;
+    font-weight: 300;
+    padding-top:;
+    text-align: center;
+    opacity: 7;
+    border: 0;
+    box-shadow: 0 0 5px #000;
+    transition: all 200ms ease-in;
+    outline: 0;
+
+}
+
+#contact a {
+      text-decoration: none;
+    color: white;
+
+}
+
+#contact a:hover {
+    transform: scale(1.4);
+    outline: none;
+}
+
+
+#footer {
+    height: 20rem;
+    color: #DDC6F9;
+    width: 360px;
+    background: black;
+    margin: 0;
+    margin-bottom: 0;
+    text-align:;
+}
+
+#subscribe hr {
+    background: white;
+    width: 100%;
+}
+
+h3 {
+    padding-left: 22px;
+    font-size: 25px;
+    font-family: Georgia;
+    color: white;
+    font-weight: 500;
+}
+
+#footer hr {
+    width: 320px;
+    height: 0.12rem;
+    background: white;
+}
+
+#footer input {
+    width: 320px;
+    height: 2rem;
+    margin-left: 20px;
+    font-size: 17px;
+    font-family: Comic Sans MS;
+    padding-left: 8px;
+    border: 0;
+    outline: 0;
+
+}
+
+#subscribe {
+    width: 320px;
+    border: 0;
+    background: #320058;
+    height: 2rem;
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    font-family: Georgia;
+    border: 0;
+    outline: 0;
+}
+
+#subscribe:hover {
+    transform: scale(1.0);
+    background: #6A00A7;
+
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 3rem;
+}
+
+.center a {
+    background: #f5f6fa;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin: 4px;
+    text-align: center;
+    box-shadow: 0.5px 1.5px 1px 1px #dcdde1;
+    line-height: px;
+    font-size: 26px;
+    padding-top: 8.4px;
+    color: #320058;
+
+}
+
+.center a i {
+    transition: all 0.1s linear;
+}
+
+.center a:hover i {
+    transform: scale(1.1);
+    background: none;
+}
+
+#right {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    line-height: 20px;
+    font-family: Courier New;
+    font-size: 18px;
+    color: #C4C4C4;
+
+}
+
+fa-facebook {
+    color: #2F86FF;
+}
+
+fa-twitter {
+    color: #1075FF;
+}
+
+fa-whatsapp {
+    color: #0BBC0C;
+}
+fa-github {
+    color: black;
+}
+
+
+
+
+.reg {
+    background-color: white;
+    margin-right: 25px;
+    margin-left: 25px;
+    border: 1px solid white;
+    border-radius: 15px;
+
+
+}
+
+.reg input {
+    margin-top: 18px;
+    margin-left: 30px;
+    margin-right: 25px;
+    width: 250px;
+    height: 37px;
+    font-weight: 700;
+    padding-right: 25px;
+}
+
+.regbtn {
+    background-color: #320058;
+    color: white;
+    margin-top: 15px;
+    margin-right: 25px;
+    margin-left: 30px;
+    border: 1px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 250px;
+    opacity: 2;
+    height: 37px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.p {
+    color: #2A2A2A;
+    font-size: 15px;
+    font-family: Sans-Serif;
+    line-height: 28px;
+    font-weight: 150;
+    text-align: center;
+
+}
+
+#tem {
+    color: #FF6665;
+    font-size: 16px;
+    text-decoration: none;
+}
+#gender {
+    margin-top: 18px;
+    margin-left: 30px;
+    margin-right: 25px;
+    width: 250px;
+    height: 37px;
+    font-weight: 500;
+    padding-right: 25px;
+    background: white;
+}
+
+.regwelcome {
+    text-align: center;
+    font-size: 35px;
+    color: #320058;
+    padding-top: 30px;
+}
+
+form label {
+    font-size: 25px;
+    padding-left: 30px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+#message {
+   height: 10rem;
+   text-align: left;
+   padding: 7px;
+   padding-bottom: 130px;
+}
